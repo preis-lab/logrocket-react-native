@@ -1,7 +1,7 @@
 {
   "name": "preis-lab-logrocket-react-native",
   "title": "Logrocket Native Module",
-  "version": "1.12.6",
+  "version": "1.12.7",
   "description": "LogRocket SDK for react-native",
   "typings": "types.d.ts",
   "files": [

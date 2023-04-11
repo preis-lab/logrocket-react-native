@@ -385,7 +385,7 @@
                               }
                           );
                         } catch (error) {
-                          console.warn("Error in logEvent", error);
+                          console.info("[LogRocket] Error in logEvent", error);
                         }
                       });
                   var o = n(r(8)),
