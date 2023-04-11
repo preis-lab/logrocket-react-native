@@ -1,5 +1,5 @@
 {
-  "name": "@preis-lab/logrocket-react-native",
+  "name": "preis-lab-logrocket-react-native",
   "title": "Logrocket Native Module",
   "version": "1.12.6",
   "description": "LogRocket SDK for react-native",
@@ -23,13 +23,9 @@
     "baseUrl": "https://github.com/preis-lab/logrocket-react-native"
   },
   "main": "dist/build.js",
-  "author": {
-    "name": "Paulo Reis",
-    "email": "paulork07@gmail.com"
-  },
+  "author": "Paulo Reis <paulork07@gmail.com>",
   "license": "MIT",
   "licenseFilename": "LICENSE",
-  "readmeFilename": "README.md",
   "peerDependencies": {
     "react-native": ">=0.60.0-rc.0 <1.0.x",
     "react": "*"
