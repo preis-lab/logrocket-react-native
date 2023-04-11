@@ -1,0 +1,55 @@
+{
+  "name": "@preis-lab/logrocket-react-native",
+  "title": "Logrocket Native Module",
+  "version": "1.12.6",
+  "description": "LogRocket SDK for react-native",
+  "typings": "types.d.ts",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "android/src",
+    "android/build.gradle",
+    "dist/build.js",
+    "ios",
+    "logrocket-react-native.podspec",
+    "types.d.ts",
+    "app.plugin.js",
+    "plugin/withLogRocket.js"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "baseUrl": "https://github.com/preis-lab/logrocket-react-native"
+  },
+  "main": "dist/build.js",
+  "author": {
+    "name": "Paulo Reis",
+    "email": "paulork07@gmail.com"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react-native": ">=0.60.0-rc.0 <1.0.x",
+    "react": "*"
+  },
+  "devDependencies": {
+    "@logrocket/arson": "^0.0.85",
+    "@logrocket/console": "^0.0.85",
+    "@logrocket/exceptions": "^0.0.85",
+    "@logrocket/network": "^0.0.85",
+    "@logrocket/utils": "^0.0.85",
+    "@logrocket/custom-events": "^0.0.85",
+    "@logrocket/redux": "^0.0.85",
+    "@logrocket/diffpatch": "^0.0.85",
+    "jest": "^26.6.3",
+    "react-native": "0.66.4",
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "babel-jest": "^26.6.3"
+  },
+  "dependencies": {
+    "@expo/config-plugins": "^5.0.1"
+  }
+}
